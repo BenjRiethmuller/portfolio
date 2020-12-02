@@ -1,25 +1,26 @@
-import logo from './logo.svg';
+import React, { Component } from 'react';
 import './App.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <div className="side-nav">
+        <h3 className="nav-heading">BENJ RIETHMULLER</h3>
+        <h3 className="nav-heading">DESIGN</h3>
+        <a href="/">Jamable</a>
+        <a href="/">Bikeabout</a>
+        <a href="/">Leelo</a>
+        <a href="/">Gravy Magazine</a>
+        <h3 className="nav-heading">PHOTO</h3>
+        <a href="/">CPHBER</a>
+        <a href="/">Confide In Them</a>
+        <a href="/">Let's Bean Out Tomorrow</a>
+        <a href="/">Read The Bible</a>
+        <h3 className="nav-heading">INFO</h3>
+        <a href="/">About & Contact</a>
+      </div>
+    );
+  }
 }
 
 export default App;
