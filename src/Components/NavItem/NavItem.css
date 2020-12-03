@@ -1,0 +1,16 @@
+nav ul {
+  font-size:var(--fontsize-nav) ;
+  list-style-type: none;
+  text-decoration: none;
+}
+nav ul li {
+  margin-bottom: 8px;
+}
+
+nav ul li:hover {
+    text-decoration: underline;
+}
+
+nav ul li:active {
+    text-decoration: underline;
+}
