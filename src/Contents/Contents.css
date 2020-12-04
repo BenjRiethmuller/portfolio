@@ -1,0 +1,43 @@
+.content-div {
+    width: 67%;
+    position: right;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin-left: 33%;
+}
+
+.page-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-title {
+    text-transform: uppercase;
+    font-size: 48px;
+    font-weight: 500;
+    margin-top: 64px;
+}
+
+.page-description {
+    display: flex;
+    margin-top: 24px;
+}
+
+.page-column {
+    width: 50%;
+}
+
+.page-subheading {
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.info-text {
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.project-image {
+    width: 100%;
+    margin-bottom: 16px;
+}

@@ -9,18 +9,18 @@
   --typing-font:3rem;
   }
 
-  *
+  /* *
   {
   margin:0;
   padding: 0;
-}
+} */
 
   body {
   font-family: 'Archivo', sans-serif;
   color: #0500FE;
 }
 
-  .App {
+  .app {
   display: flex;
   width: 100vw;
   min-height: 100vh;

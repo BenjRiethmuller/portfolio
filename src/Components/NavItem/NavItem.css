@@ -7,10 +7,24 @@ nav ul li {
   margin-bottom: 8px;
 }
 
-nav ul li:hover {
+.nav-link:hover {
     text-decoration: underline;
 }
 
-nav ul li:active {
+.nav-link:active {
     text-decoration: underline;
+    color:  #0500FE;
+}
+
+.nav-link:visited {
+  text-decoration: underline;
+  color:  #0500FE;
+}
+
+.nav-link {
+  font-weight: 400;
+  font-size: 24px;
+  display: inline-block;
+  text-decoration: none;
+  margin-bottom: 8px;
 }

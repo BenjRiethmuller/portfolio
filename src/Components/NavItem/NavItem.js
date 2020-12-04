@@ -7,7 +7,7 @@ class NavItem extends Component {
     render() {
         return(
             <li>
-                <Link to={this.props.tolink} >
+                <Link className="nav-link" to={this.props.tolink} >
                     {this.props.item}
                 </Link>
             </li>
