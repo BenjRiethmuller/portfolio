@@ -19,16 +19,14 @@ class ReadTheBible extends Component {
         return(
             <div className="content-div">
                 {/* TITLE AND DATE */}
-                <div className="header-bg">
-                    <div className="page-header">
-                        <h3 className="page-title">Read The Bible</h3>
-                        <h3 className="page-title">2015</h3>
-                    </div>
+                <div className="page-header">
+                    <h3 className="page-title">Read The Bible</h3>
+                    <h3 className="page-title">2015</h3>
                 </div>
 
                 {/* CAPTION AND + INFO */}
                 <div className="page-description">
-                    <p className="page-subheading page-column">Photo Essay.</p>
+                    <p className="page-subheading page-column">Photo essay documenting youth culture.</p>
                     <div className="page-info page-column">
                         <p className="page-subheading page-column">+ info</p>
                         <p className="info-text"> 'Read the Bible' is a photo essay following a cohort of adolescents in Perth, Western Australia. 
