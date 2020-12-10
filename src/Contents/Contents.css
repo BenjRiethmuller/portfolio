@@ -9,6 +9,7 @@
 .page-header {
     display: flex;
     justify-content: space-between;
+    height: 192px;
 }
 
 .page-title {
@@ -20,7 +21,11 @@
 
 .page-description {
     display: flex;
-    margin-top: 24px;
+    /* margin-top: 24px; */
+}
+
+.page-info {
+    margin-left: 8px;
 }
 
 .page-column {
@@ -30,6 +35,7 @@
 .page-subheading {
     font-size: 12px;
     font-weight: 600;
+    margin-right: 8px;
 }
 
 .info-text {
@@ -42,3 +48,37 @@
     width: 100%;
     margin-bottom: 16px;
 }
+
+.about-image {
+    width: 50%;
+    margin-right: 8px;
+    margin-bottom: 16px;
+}
+
+ul li {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    margin-bottom: 24px;
+}
+
+.email-link {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.social-link {
+    font-size: 12px;
+    font-weight: 600;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.social-link:visited {
+    color:  #0500FE;
+  }
