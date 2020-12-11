@@ -4,6 +4,19 @@ import l_1 from '../Img/Leelo/l_1.jpg';
 import l_2 from '../Img/Leelo/l_2.jpg';
 import l_3 from '../Img/Leelo/l_3.jpg';
 
+const toggleInfo = () => {
+    const info = document.querySelector('.info-text');
+    const text = document.querySelector('.toggle-button');
+
+    if (text.innerHTML === '+ info') {
+      info.style.display = "block";
+      text.innerHTML = '- info';
+    } else {
+      info.style.display = "none";
+      text.innerHTML = '+ info';
+    }
+  }
+
 class Leelo extends Component {
 
     render() {
@@ -19,7 +32,7 @@ class Leelo extends Component {
                 <div className="page-description">
                     <p className="page-subheading page-column">Album artwork for Leelo.</p>
                     <div className="page-info page-column">
-                        <p className="page-subheading page-column">+ info</p>
+                    <p className="page-subheading page-column toggle-button" onClick={toggleInfo}>+ info</p>
                         <p className="info-text"> </p>
                     </div>
                 </div>

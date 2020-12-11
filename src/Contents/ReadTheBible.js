@@ -13,6 +13,19 @@ import rtb_110 from '../Img/Read The Bible/rtb_110.jpg';
 import rtb_120 from '../Img/Read The Bible/rtb_120.jpg';
 import rtb_68 from '../Img/Read The Bible/rtb_68.jpg';
 
+const toggleInfo = () => {
+    const info = document.querySelector('.info-text');
+    const text = document.querySelector('.toggle-button');
+
+    if (text.innerHTML === '+ info') {
+      info.style.display = "block";
+      text.innerHTML = '- info';
+    } else {
+      info.style.display = "none";
+      text.innerHTML = '+ info';
+    }
+  }
+
 class ReadTheBible extends Component {
 
     render() {
@@ -28,7 +41,7 @@ class ReadTheBible extends Component {
                 <div className="page-description">
                     <p className="page-subheading page-column">Photo essay documenting youth culture.</p>
                     <div className="page-info page-column">
-                        <p className="page-subheading page-column">+ info</p>
+                    <p className="page-subheading page-column toggle-button" onClick={toggleInfo}>+ info</p>
                         <p className="info-text"> 'Read the Bible' is a photo essay following a cohort of adolescents in Perth, Western Australia. 
                         Shot throughout 2015, the social documentary intends to capture the influx of new experiences and coming to terms with a phase of life that often leaves adolescents alienated from the rest of society.<br />
                         <br /> Appeared in 'Autoluminescent' at the Perth Centre for Photography - A photography exhibition for the graduating students of Curting University.</p>

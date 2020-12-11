@@ -33,13 +33,15 @@
 }
 
 .page-subheading {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     margin-right: 8px;
+    margin-top: 0px;
 }
 
 .info-text {
-    font-size: 12px;
+    display: none;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 24px;
 }
@@ -66,13 +68,13 @@ a {
 }
 
 .email-link {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     margin-bottom: 24px;
 }
 
 .social-link {
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 600;
     margin-bottom: 24px;
     text-transform: uppercase;

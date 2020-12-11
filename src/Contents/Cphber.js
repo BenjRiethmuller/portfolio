@@ -15,6 +15,19 @@ import cphber_29 from '../Img/CPHBER/cphber_29.jpg';
 import cphber_30 from '../Img/CPHBER/cphber_30.jpg';
 import cphber_35 from '../Img/CPHBER/cphber_35.jpg';
 
+const toggleInfo = () => {
+    const info = document.querySelector('.info-text');
+    const text = document.querySelector('.toggle-button');
+
+    if (text.innerHTML === '+ info') {
+      info.style.display = "block";
+      text.innerHTML = '- info';
+    } else {
+      info.style.display = "none";
+      text.innerHTML = '+ info';
+    }
+  }
+
 class Cphber extends Component {
 
     render() {
@@ -30,7 +43,7 @@ class Cphber extends Component {
                 <div className="page-description">
                     <p className="page-subheading page-column">Photo series for STYLO Magazine Issue 13 - Power.</p>
                     <div className="page-info page-column">
-                        <p className="page-subheading page-column">+ info</p>
+                    <p className="page-subheading page-column toggle-button" onClick={toggleInfo}>+ info</p>
                         <p className="info-text">
                             There was a buzz around the streets in the days leading up to the event. 
                             The rumble of wheels on concrete echoed as seas of skaters flocked the roads and footpaths of Berlin for the CPH Open’s final stop. 

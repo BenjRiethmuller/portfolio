@@ -15,6 +15,19 @@ import lbot_31 from '../Img/Let\'s Bean Out Tomorrow/lbot_31.jpg';
 import lbot_32 from '../Img/Let\'s Bean Out Tomorrow/lbot_32.jpg';
 import lbot_34 from '../Img/Let\'s Bean Out Tomorrow/lbot_34.jpg';
 
+const toggleInfo = () => {
+    const info = document.querySelector('.info-text');
+    const text = document.querySelector('.toggle-button');
+
+    if (text.innerHTML === '+ info') {
+      info.style.display = "block";
+      text.innerHTML = '- info';
+    } else {
+      info.style.display = "none";
+      text.innerHTML = '+ info';
+    }
+  }
+
 class BeanOut extends Component {
 
     render() {
@@ -30,7 +43,7 @@ class BeanOut extends Component {
                 <div className="page-description">
                     <p className="page-subheading page-column">Photo series for STYLO Magazine Issue 10 - Growth.</p>
                     <div className="page-info page-column">
-                        <p className="page-subheading page-column">+ info</p>
+                        <p className="page-subheading page-column toggle-button" onClick={toggleInfo}>+ info</p>
                         <p className="info-text"> </p>
                     </div>
                 </div>

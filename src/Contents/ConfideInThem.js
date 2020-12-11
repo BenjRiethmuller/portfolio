@@ -9,6 +9,20 @@ import cit_27 from '../Img/Confide In Them/cit_27.jpg';
 import cit_29 from '../Img/Confide In Them/cit_29.jpg';
 import cit_32 from '../Img/Confide In Them/cit_32.jpg';
 
+
+const toggleInfo = () => {
+    const info = document.querySelector('.info-text');
+    const text = document.querySelector('.toggle-button');
+
+    if (text.innerHTML === '+ info') {
+      info.style.display = "block";
+      text.innerHTML = '- info';
+    } else {
+      info.style.display = "none";
+      text.innerHTML = '+ info';
+    }
+  }
+
 class ConfideInThem extends Component {
 
     render() {
@@ -24,7 +38,7 @@ class ConfideInThem extends Component {
                 <div className="page-description">
                     <p className="page-subheading page-column">Photo series for STYLO Magazine Issue 11 - Perspective.</p>
                     <div className="page-info page-column">
-                        <p className="page-subheading page-column">+ info</p>
+                    <p className="page-subheading page-column toggle-button" onClick={toggleInfo}>+ info</p>
                         <p className="info-text"> </p>
                     </div>
                 </div>
