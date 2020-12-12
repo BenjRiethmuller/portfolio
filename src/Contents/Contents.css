@@ -33,7 +33,7 @@
 }
 
 .page-subheading {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin-right: 8px;
     margin-top: 0px;
@@ -41,21 +41,24 @@
 
 .info-text {
     display: none;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
 }
 
 .project-image {
     width: 100%;
+    height: auto;
     margin-bottom: 16px;
 }
 
 .about-image {
-    width: 50%;
+    width: 100%;
+    height: auto;
     margin-right: 8px;
     margin-bottom: 16px;
 }
+
 
 ul li {
     list-style-type: none;
@@ -68,13 +71,13 @@ a {
 }
 
 .email-link {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 24px;
 }
 
 .social-link {
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 600;
     margin-bottom: 24px;
     text-transform: uppercase;
@@ -83,4 +86,10 @@ a {
 
 .social-link:visited {
     color:  #0500FE;
+  }
+
+  .about-info {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
   }

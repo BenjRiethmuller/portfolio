@@ -14,15 +14,17 @@ class Info extends Component {
 
                 {/* CAPTION AND + INFO */}
                 <div className="page-description">
-                <img src={onTheMountain} alt="" className="about-image page-column"></img>
+                <div className="page-column">
+                    <img src={onTheMountain} alt="" className="about-image"></img>
+                </div>
                 <div className="page-info page-column">
                     <p className="page-subheading page-column">ABOUT</p>
-                    <p className="info-text">Benj Riethmuller is an Australian multi-disciplinary artist working in digital & print design, photography, web development and everything in-between.</p>
-                    <p className="info-text">After graduating with a degree in Graphic Design & Photography from Curtin University, Benj spent time in both London and Berlin before returning to Perth, where he currently resides.</p>
-                    <p className="info-text">In 2018 he co-founded the art publication Gravy Magazine.</p>
+                    <p className="about-info">Benj Riethmuller is an Australian multi-disciplinary artist working in digital & print design, photography, web development and everything in-between.</p>
+                    <p className="about-info">After graduating with a degree in Graphic Design & Photography from Curtin University, Benj spent time in both London and Berlin before returning to Perth, where he currently resides.</p>
+                    <p className="about-info">In 2018 he co-founded the art publication Gravy Magazine.</p>
                 
                     <p className="page-subheading page-column">AREAS OF EXPERTISE</p>
-                    <ul className="info-text">
+                    <ul className="about-info">
                         <li>Visual & Graphic Design</li>
                         <li>UX & UI Design</li>
                         <li>Front-End & Back-End Web Development</li>
