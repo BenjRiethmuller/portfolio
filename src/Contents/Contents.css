@@ -52,6 +52,13 @@
     margin-bottom: 16px;
 }
 
+.home-image {
+    padding-top: 225px;
+    width: 100%;
+    /* height: 660px; */
+    /* margin-bottom: 16px; */
+}
+
 .about-image {
     width: 100%;
     height: auto;
@@ -62,10 +69,6 @@
 
 ul li {
     list-style-type: none;
-    text-decoration: none;
-}
-
-.about-info:hover {
     text-decoration: none;
 }
 
