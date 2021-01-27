@@ -25,9 +25,9 @@ class Info extends Component {
                 
                     <p className="page-subheading page-column">AREAS OF EXPERTISE</p>
                     <ul className="about-info">
-                        <li>Visual & Graphic Design</li>
-                        <li>UX & UI Design</li>
-                        <li>Front-End & Back-End Web Development</li>
+                        <p>Visual & Graphic Design</p>
+                        <p>UX & UI Design</p>
+                        <p>Front-End & Back-End Web Development</p>
                     </ul>
                 
                     <p className="page-subheading page-column">CONTACT</p>

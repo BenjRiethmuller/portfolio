@@ -37,7 +37,8 @@ class Bikeabout extends Component {
                         <p className="page-subheading page-column toggle-button" onClick={toggleInfo}>+ info</p>
                         <p className="info-text">Bikeabout is an online bike sharing marketplace to help travellers rent bikes and explore their destinations like a local.
                         <br /><br />
-                        A city search function and interactive map gives users the ability to find a bike in their area, while the dashboard allows them manage their listed bikes, upcoming bookings and leave reviews.
+                        A city search function and interactive map gives users the ability to find a bike in their area, while the dashboard allows them manage their listed bikes, upcoming bookings and leave reviews.\
+                        <br /><br />
                         Tech: Ruby on Rails, HTML5, SCSS, Javascript, Heroku, PostgreSQL DB, PG Search</p>
                     </div>
                 </div>
