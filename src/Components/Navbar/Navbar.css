@@ -39,3 +39,33 @@ ul {
 li {
     color:  #0500FE;
 }
+
+.mobile-nav {
+    display: none;
+}
+
+@media only screen and (max-width: 768px) {
+    .desktop-nav {
+        display: none;
+    }
+
+    .mobile-nav {
+        display: inline-block;
+    }
+
+    .nav-header {
+        margin-top: 24px;
+    }
+
+    .design-dropdown-content {
+        display: none;
+    }
+
+    .photo-dropdown-content {
+        display: none;
+    }
+
+    .info-dropdown-content {
+        display: none;
+    }
+}

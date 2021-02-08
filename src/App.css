@@ -32,3 +32,10 @@
   padding: 100px ;
   flex:var(--condiv-flex);
 }
+
+@media only screen and (max-width: 768px) {
+.app {
+  display: inline-block;
+  /* width: 100vw; */
+}
+ }
